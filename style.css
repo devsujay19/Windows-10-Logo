@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+  overflow: hidden;
+}
+.main-container{
+  position: relative;
+  top: 10pc;
+  right: 1pc;
+}
+.container {
+  position: absolute;
+  left: calc(25% - 250px);
+  top: calc(50% - 150px);
+  width: 400px;
+  height: 300px;
+  background-color: white;
+}
+.t1 {
+  position: absolute;
+  left: calc(50% - 125px);
+  top: calc(50% - 130px);
+  width: 0;
+  height: 200px;
+  border-right: 250px solid #00adef;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+.rect1 {
+  position: absolute;
+  top: calc(50% - 5px);
+  left: calc(50% - 155px);
+  width: 290px;
+  height: 8px;
+  background-color: white;
+}
+.rect2 {
+  position: absolute;
+  top: calc(50% - 5px);
+  left: calc(50% - 155px);
+  width: 290px;
+  height: 8px;
+  background-color: white;
+  transform: rotate(90deg);
+}
+h1{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 100px;
+  font-weight: lighter;
+  text-indent: 25pc;
+  z-index: 900;
+  color: #07b3f7;
+  word-spacing: -9px;
+}
